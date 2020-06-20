@@ -1,0 +1,27 @@
+* {
+	font-family: 'DM Sans', sans-serif;
+}
+
+@media only screen and (max-width: 400px) {
+	#title {
+		font-size: 3.5rem;
+		padding-left: 1rem;
+	}
+
+	#description {
+		font-size: 1.5rem;
+		padding-right: 1rem;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	#title {
+		font-size: 5rem;
+		padding-left: 2rem;
+	}
+
+	#description {
+		font-size: 2rem;
+		padding-right: 1rem;
+	}
+}
